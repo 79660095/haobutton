@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="haoButton">
+        <attr name="normalSolid" format="color" />
+        <attr name="pressedSolid" format="color" />
+        <attr name="stroke" format="color" />
+        <attr name="normalStroke" format="color" />
+        <attr name="pressedStroke" format="color" />
+        <attr name="roundButtonRadius" format="dimension" />
+        <attr name="roundButtonLeftTopRadius" format="dimension" />
+        <attr name="roundButtonLeftBottomRadius" format="dimension" />
+        <attr name="roundButtonRightTopRadius" format="dimension" />
+        <attr name="roundButtonRightBottomRadius" format="dimension" />
+        <attr name="normalDrawable" format="reference" />
+        <attr name="pressedDrawable" format="reference" />
+        <attr name="isSelected" format="boolean" />
+        <attr name="normalTextColor" format="color" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+
+<!--    normalSolid                                    正常状态背景填充颜色
+        pressedSolid                                   按下状态背景填充颜色
+        stroke                                         边框颜色
+        normalStroke                                   边框正常状态填充颜色
+        pressedStroke                                  边框按下状态填充姿色
+        roundButtonRadius                              button四个角弧度
+        roundButtonLeftTopRadius                       button左上角弧度
+        roundButtonLeftBottomRadius                    button左下角弧度
+        roundButtonRightTopRadius                      button右上角弧度
+        roundButtonRightBottomRadius                   button右下角弧度
+        normalDrawable                                 正常状态背景图片
+        pressedDrawable                                按下状态背景图片
+        isSelected                                     是否支持button选中状态 与setSelected()配合使用
+        normalTextColor                                正常状态文字的颜色
+        selectedTextColor                              选中状态下文字的颜色
+        strokeWidth                                    边框的宽度-->
+    </declare-styleable>
+</resources>
